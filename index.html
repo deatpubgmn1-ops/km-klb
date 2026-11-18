@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090a0f">
+  <meta name="description" content="CYBER ARENA UZ — Toshkentdagi zamonaviy gaming klub.">
+  <title>CYBER ARENA UZ | O'yin maydoni</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a href="#home" class="logo">CYBER<span>ARENA</span></a>
+  <button class="hamburger" id="hamburger" aria-label="Menyuni ochish">☰</button>
+  <nav id="nav">
+    <a href="#home">Asosiy</a>
+    <a href="#zones">O'yin zonalari</a>
+    <a href="#pcs">Kompyuterlar</a>
+    <a href="#pricing">Tariflar</a>
+    <a href="#tournaments">Turnirlar</a>
+    <a href="#contact">Aloqa</a>
+    <button class="btn btn-primary" data-book>Joy band qilish</button>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-content reveal">
+    <div class="eyebrow">● TOSHKENTDAGI YANGI AVLOD GAMING KLUBI</div>
+    <h1>O'YINNING<br>YANGI <span>OLAMIGA</span><br>KIRING.</h1>
+    <p>Eng kuchli kompyuterlar, yuqori tezlik va unutilmas gaming muhiti. G'alaba shu yerdan boshlanadi!</p>
+    <div class="hero-actions">
+      <button class="btn btn-primary" data-book>JOY BAND QILISH ↗</button>
+      <a class="btn btn-outline" href="#zones">ZONALARNI KO'RISH</a>
+    </div>
+    <div class="stats">
+      <div><strong>50+</strong><small>Gaming kompyuter</small></div>
+      <div><strong>360Hz</strong><small>Monitorlar</small></div>
+      <div><strong>24/7</strong><small>Doim ochiq</small></div>
+    </div>
+  </div>
+  <div class="hero-visual tilt">
+    <div class="hero-glow"></div>
+    <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=1200&q=85" alt="Zamonaviy gaming kompyuter">
+    <div class="floating-tag">RTX 4090 <span>● FAOL</span></div>
+  </div>
+</section>
+
+<section class="section" id="zones">
+  <div class="section-head reveal">
+    <div><span class="eyebrow">BIZNING HUDUDLAR</span><h2>O'YIN <span>ZONALARI</span></h2></div>
+    <div class="slider-controls">
+      <button id="zonePrev" aria-label="Oldingi">←</button>
+      <button id="zoneNext" aria-label="Keyingi">→</button>
+    </div>
+  </div>
+  <div class="carousel-window">
+    <div class="carousel-track" id="zoneTrack">
+      <article class="zone-card">
+        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=85" alt="Standart gaming zona">
+        <div class="zone-info"><span>01 / STANDART</span><h3>Standart zona</h3><p>Qulay muhit va kuchli kompyuterlar.</p><strong>15 000 so'm / soat</strong><button class="btn btn-outline" data-book="Standart">Tanlash ↗</button></div>
+      </article>
+      <article class="zone-card">
+        <img src="https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=crop&w=900&q=85" alt="VIP gaming xona">
+        <div class="zone-info"><span>02 / VIP</span><h3>VIP zona</h3><p>Shaxsiy hudud va premium qulaylik.</p><strong>30 000 so'm / soat</strong><button class="btn btn-outline" data-book="VIP">Tanlash ↗</button></div>
+      </article>
+      <article class="zone-card">
+        <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=85" alt="Bootcamp zona">
+        <div class="zone-info"><span>03 / JAMOA</span><h3>Bootcamp</h3><p>Jamoaviy mashg'ulot va turnirlar.</p><strong>20 000 so'm / soat</strong><button class="btn btn-outline" data-book="Bootcamp">Tanlash ↗</button></div>
+      </article>
+      <article class="zone-card">
+        <img src="https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?auto=format&fit=crop&w=900&q=85" alt="PlayStation zona">
+        <div class="zone-info"><span>04 / PS5</span><h3>PlayStation 5</h3><p>Katta ekran va ajoyib o'yinlar.</p><strong>35 000 so'm / soat</strong><button class="btn btn-outline" data-book="PlayStation 5">Tanlash ↗</button></div>
+      </article>
+    </div>
+  </div>
+  <div class="dots" id="zoneDots"></div>
+</section>
+
+<section class="section hardware" id="pcs">
+  <div class="section-head reveal">
+    <div><span class="eyebrow">TEXNOLOGIYA KUCHI</span><h2>ENG KUCHLI <span>QURILMALAR</span></h2></div>
+  </div>
+  <div class="hardware-grid">
+    <article class="spec-card tilt reveal">
+      <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=800&q=85" alt="Gaming kompyuter">
+      <div class="spec-info"><span>01 / VIDEOKARTA</span><h3>RTX 4090</h3><p>Yuqori unumdorlik va realistik grafika.</p><div class="spec-line">24 GB GDDR6X</div></div>
+    </article>
+    <article class="spec-card tilt reveal">
+      <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=800&q=85" alt="Kompyuter tizimi">
+      <div class="spec-info"><span>02 / PROTSESSOR</span><h3>CORE i9</h3><p>Tezkor ishlash va kuchli hisoblash.</p><div class="spec-line">INTEL CORE i9</div></div>
+    </article>
+    <article class="spec-card tilt reveal">
+      <img src="https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=800&q=85" alt="Gaming monitor">
+      <div class="spec-info"><span>03 / MONITOR</span><h3>360 HZ</h3><p>Har bir harakatni aniq va ravon ko'ring.</p><div class="spec-line">1 MS RESPONSE</div></div>
+    </article>
+  </div>
+</section>
+
+<section class="section pricing" id="pricing">
+  <div class="section-head reveal">
+    <div><span class="eyebrow">SIZGA MOS TANLOV</span><h2>BIZNING <span>TARIFLAR</span></h2></div>
+  </div>
+  <div class="price-filter">
+    <button class="filter-btn active" data-filter="all">Barchasi</button>
+    <button class="filter-btn" data-filter="day">Kunduzgi</button>
+    <button class="filter-btn" data-filter="night">Tungi</button>
+    <button class="filter-btn" data-filter="vip">VIP</button>
+  </div>
+  <div class="price-grid">
+    <article class="price-card reveal" data-type="day">
+      <span>01 / KUNDUZGI</span><h3>Oddiy</h3><div class="price">15 000 <small>so'm / soat</small></div>
+      <ul><li>✓ Kuchli gaming kompyuter</li><li>✓ 240Hz monitor</li><li>✓ Qulay gaming kreslo</li><li>✓ Tezkor internet</li></ul>
+      <button class="btn btn-outline" data-book="Standart">Joy band qilish</button>
+    </article>
+    <article class="price-card featured reveal" data-type="night">
+      <div class="popular">ENG MASHHUR</div><span>02 / TUNGI PAKET</span><h3>Night Gaming</h3><div class="price">80 000 <small>so'm / tun</small></div>
+      <ul><li>✓ 6 soat o'yin</li><li>✓ Premium kompyuter</li><li>✓ Ichimlik uchun chegirma</li><li>✓ Qulay dam olish</li></ul>
+      <button class="btn btn-primary" data-book="Standart">Joy band qilish</button>
+    </article>
+    <article class="price-card reveal" data-type="vip">
+      <span>03 / PREMIUM</span><h3>VIP paket</h3><div class="price">30 000 <small>so'm / soat</small></div>
+      <ul><li>✓ Alohida xona</li><li>✓ RTX 4090</li><li>✓ Premium periferiyalar</li><li>✓ Shaxsiy xizmat</li></ul>
+      <button class="btn btn-outline" data-book="VIP">Joy band qilish</button>
+    </article>
+  </div>
+</section>
+
+<section class="tournaments section" id="tournaments">
+  <div class="section-head reveal">
+    <div><span class="eyebrow">KUCHLILAR MAYDONI</span><h2>YAQINLASHAYOTGAN <span>TURNIRLAR</span></h2></div>
+  </div>
+  <div class="tournament-grid">
+    <article class="tournament-card reveal"><div class="game-icon">CS2</div><span>01 / SHOOTER</span><h3>Counter-Strike 2</h3><p>Jamoangizni yig'ing va chempionlik uchun kurashing.</p><button class="btn btn-outline" data-register="Counter-Strike 2">Ro'yxatdan o'tish ↗</button></article>
+    <article class="tournament-card reveal"><div class="game-icon purple">DOTA</div><span>02 / MOBA</span><h3>Dota 2</h3><p>Taktika, mahorat va jamoaviy g'alaba.</p><button class="btn btn-outline" data-register="Dota 2">Ro'yxatdan o'tish ↗</button></article>
+    <article class="tournament-card reveal"><div class="game-icon green">FC</div><span>03 / SPORT</span><h3>EA SPORTS FC</h3><p>Futbol maydonidagi mahoratingizni ko'rsating.</p><button class="btn btn-outline" data-register="EA SPORTS FC">Ro'yxatdan o'tish ↗</button></article>
+  </div>
+</section>
+
+<section class="contact section" id="contact">
+  <div class="contact-box reveal">
+    <span class="eyebrow">BIZ BILAN BOG'LANING</span>
+    <h2>G'ALABA SIZNI <span>KUTMOQDA.</span></h2>
+    <p>Do'stlaringizni yig'ing. O'yin uchun joyingizni hoziroq band qiling.</p>
+    <button class="btn btn-primary" data-book>HOZIROQ JOY BAND QILING ↗</button>
+  </div>
+</section>
+</main>
+
+<footer>
+  <a href="#home" class="logo">CYBER<span>ARENA</span></a>
+  <p>Toshkent shahri, O'zbekiston</p>
+  <p>Har kuni, 24/7</p>
+  <p>+998 90 123 45 67</p>
+  <div class="social"><a href="https://instagram.com/">Instagram</a><a href="https://t.me/">Telegram</a></div>
+  <small>© 2026 CYBER ARENA UZ. Barcha huquqlar himoyalangan.</small>
+</footer>
+
+<div class="modal" id="bookingModal" aria-hidden="true">
+  <div class="modal-box">
+    <button class="close" data-close aria-label="Yopish">×</button>
+    <span class="eyebrow">CYBER ARENA UZ</span>
+    <h2>JOY <span>BAND QILISH</span></h2>
+    <form id="bookingForm">
+      <label>Ismingiz<input name="name" required placeholder="Ismingizni kiriting"></label>
+      <label>Telefon raqamingiz<input name="phone" required type="tel" placeholder="+998 90 123 45 67"></label>
+      <label>O'yin zonasi<select name="zone" id="bookingZone"><option>Standart</option><option>VIP</option><option>Bootcamp</option><option>PlayStation 5</option></select></label>
+      <label>Kompyuter raqami<select name="pc"><option>01</option><option>02</option><option>03</option><option>04</option><option>05</option><option>06</option><option>07</option><option>08</option><option>09</option><option>10</option></select></label>
+      <label>Sana<input name="date" type="date" required id="bookingDate"></label>
+      <label>Vaqt<input name="time" type="time" required></label>
+      <button class="btn btn-primary full" type="submit">BRONNI TASDIQLASH ↗</button>
+    </form>
+  </div>
+</div>
+
+<div class="modal" id="registerModal" aria-hidden="true">
+  <div class="modal-box">
+    <button class="close" data-close aria-label="Yopish">×</button>
+    <span class="eyebrow">TURNIR ISHTIROKI</span>
+    <h2>RO'YXATDAN <span>O'TISH</span></h2>
+    <form id="registerForm">
+      <label>Turnir<input name="game" id="registerGame" readonly></label>
+      <label>Jamoa yoki o'yinchi nomi<input name="team" required placeholder="Nomini kiriting"></label>
+      <label>Telefon raqamingiz<input name="phone" required type="tel" placeholder="+998 ..."></label>
+      <button class="btn btn-primary full">RO'YXATDAN O'TISH ↗</button>
+    </form>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
